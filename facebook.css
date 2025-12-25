@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  font-size: 14px;
+  
+}
+
+header {
+  background: #1877f2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 16px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#grille
+{
+    display: inline;
+    
+  
+  }
+
+section {
+    
+  padding: 30px;
+  border: 9px solid #ccc;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+article
+{
+  background-color: antiquewhite;
+  margin: 40px;
+  border-radius: 9px 0px 9px 0px;
+  border: 2px groove navy;
+  width: 60%;
+}
+
+h1
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h2
+{
+   color:navy;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+
+h3
+{
+    color:navy;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+
+h4
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+
+h5
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+h6
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0rem;
+    text-align: left;
+}
+p
+{
+    margin-left: 0px;
+    padding: 30px;
+    background-color: rgb(240, 254, 250);
+    color: rgb(2, 2, 40);
+    font-size: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button#topBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#topBtn:hover {
+  background-color: #145db2;
+}
+#interface
+{
+  background-color: rgb(255, 254, 253);
+  width: 350px;
+}
+footer
+{
+    background-color: rgb(77, 97, 176);
+    border-radius: 1px;
+    border: 1px solid black;
+    height: auto;
+    padding: 40px;
+
+}

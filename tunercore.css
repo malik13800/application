@@ -1,0 +1,146 @@
+ 
+ body
+ {
+    font-size: 14px;
+    background-color: black;
+ }
+
+ nav
+ {
+    display: flex;
+    background-color: rgb(5, 0, 0);
+ }
+ #grille
+ {
+    display: grid;
+    grid-template-columns: 700px 550px;
+ }
+ .un
+ {
+
+     margin-left: 30px;
+     border: 1px solid blue;
+ }
+ .deux
+ {
+
+     margin-left: 100px;
+     border: 1px solid blue;
+ }
+
+ .flexbox
+ {
+     display: flex;
+     justify-content: left;
+     padding: 20px;
+     font-size: 16px;
+     font-weight: bold;
+     border:1px groove black ;
+     text-align: center;
+     width: 99%;
+     height:50px ;
+ }
+
+ h1, h2, h3 ,h4 , h5
+ {
+    color: white;
+ }
+ h1
+ {
+    font-size: 3em;
+    text-align: center;
+ }
+ h2
+ {
+    font-size: 2.4em;
+ }
+ h3
+ {
+    font-size: 1.8em;
+ }
+ h4
+ {
+    font-size: 1.3em;
+ }
+ footer
+{
+    margin-top: 200px;
+    background-color: rgb(97, 82, 0);
+    height: 260px;
+}
+
+#logo
+{
+ width: 60px;
+ height: 60px;
+ padding: 5px;
+ margin: 9px;  
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a
+{
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    color: rgb(245, 255, 255);
+    font-size: 1.3rem;
+    font-weight:500;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 26px;
+}
+ul,li
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.grille
+{
+    background-color: antiquewhite;
+}
+.cartouche1
+{
+    width: 500px;
+    border: 3px groove maroon;
+    background-color:  rgb(13, 8, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.cart1
+{
+    border: 1px solid rgb(252, 58, 123);
+    width: 500px;
+    text-align: justify;
+}
+.cart2
+{
+    border: 1px solid rgb(252, 58, 123);
+    width: 500px;
+    text-align: justify;
+}
+
+.tete
+{
+    width: 100%;
+}
+.footGras
+{
+  font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 15px;
+    margin: 10px;
+    padding: 10px;  
+}
